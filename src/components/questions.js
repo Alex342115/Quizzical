@@ -58,11 +58,6 @@ export default function Questions() {
         ))
       : null;
 
-  // <---------Function to handle start again--------->
-  function handleClick() {
-    setStartAgain((prevValue) => !prevValue);
-  }
-
   // <----------Storing the selected Answer----------->
   function selectAnswer(id, selectedAns) {
     setQuesArr((prevQuiz) =>
