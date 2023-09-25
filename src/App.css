@@ -123,9 +123,10 @@ input[type="radio"]:checked + .ans-btn {
 
 .ans-btn.correct-answer {
   color: #293264;
-  background: #94d7a2 !important;
-  border: 2px solid #94d7a2 !important;
-  font-weight: 500;
+  background: #49b360 !important;
+  border: 2px solid #49b360 !important;
+  font-weight: 700;
+  opacity: 1 !important;
 }
 
 .ans-btn.wrong-answer {
